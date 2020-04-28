@@ -1,0 +1,8 @@
+.title{
+  color: #445161;
+  @include font-size(30px);
+  font-weight: 400;
+  @include line-height(36px);
+
+  // отступы не указываются. так как это автономный блок (БЭМ)
+}
